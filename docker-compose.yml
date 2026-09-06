@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ai-video-studio:
+    build: .
+    container_name: ai_video_studio_factory
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - ./storage:/app/storage

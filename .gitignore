@@ -1,0 +1,12 @@
+node_modules/
+dist/
+client/dist/
+.env
+storage/renders/*.mp4
+storage/renders/*.srt
+storage/renders/*.ass
+storage/audio/*.mp3
+storage/visuals/*.png
+storage/visuals/*.jpg
+.DS_Store
+*.log
