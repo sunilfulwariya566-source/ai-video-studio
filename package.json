@@ -4,9 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch server/src/server.ts",
-    "build:client": "vite build client",
+    "build:client": "node scripts/prepare_and_build.mjs",
     "build:server": "tsc",
-    "build": "vite build client",
+    "build": "node scripts/prepare_and_build.mjs",
     "start": "tsx server/src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest",
